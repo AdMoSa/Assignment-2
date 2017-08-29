@@ -1,11 +1,13 @@
 #include <iostream>
 using namespace std;
-main()
+
+int main()
 {
-int a,b;
+float a,b,c;
 cout << "Enter length: ";
-cin >> a;
+cin  >> a;
 cout << "Enter breadth: ";
 cin >> b;
-cout << "Area: " << a << "*" << b << "=" << a*b;
-}
+c= a*b;
+cout << "Area of rectangle: " << c;
+return 0;
